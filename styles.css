@@ -1,0 +1,90 @@
+
+/*You can add styles to format your tooltip here*/
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+.name {
+    text-align: center;
+}
+
+#intro {
+    font-size: 20px;
+}
+
+#vis1_intro {
+    font-size: 20px;
+}
+#analysis1 {
+    font-size: 20px;
+}
+
+#vis2_intro {
+    font-size: 20px;
+}
+#analysis2 {
+    font-size: 20px;
+}
+
+#vis3_intro {
+    font-size: 20px;
+}
+#analysis3 {
+    font-size: 20px;
+}
+
+#vis4_intro {
+    font-size: 20px;
+}
+#analysis4 {
+    font-size: 20px;
+}
+
+#vis5_intro {
+    font-size: 20px;
+}
+#analysis5 {
+    font-size: 20px;
+}
+
+#cap1 {
+    height: 100px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    /* background-color: powderblue; */
+  }
+
+#cap2 {
+    height: 100px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    /* background-color: powderblue; */
+  }
+#cap3 {
+    height: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    /* background-color: powderblue; */
+}
+#cap4 {
+    height: 100px;
+    width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cap5 {
+    height: 100px;
+    width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}

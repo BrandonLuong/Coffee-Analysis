@@ -1,0 +1,126 @@
+
+<html>  
+<head>  
+<script type="text/javascript" src="app.js"></script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=finalProj()> 
+
+
+<div>
+<h2 class="section">Coffee Quality Analysis</h2>
+<h3 class="name">Brandon Luong</h3>
+
+</div>
+<div id = "intro"> Coffee is arguably one of the most popular drinks in the entire world. This drink is enjoyed by many different demographics of people ranging in all ages since there are so many kinds of styles, and brews of coffee. Because of its popularity, coffee beans are also produced world wide, and each of these places produce different quality beans. The goal of this project is to examine which characteristics contribute to a coffee's quality.
+</div>
+
+<br>
+<div>
+<!-- <h3>Plot with 0 Key and 2 Values:</h3> -->
+<div id = "vis1_intro"> Firstly, coffee has different kinds of roasts which impacts the flavor of the drink. We will analyze the relationship between the rating and price for each type of roast.
+</div>
+<div id="plot1">
+
+    </div>
+    <!-- <h4>Plot:</h4> -->
+    <div id="scatter_plot" class="center_plot">
+    </div>
+    <div id = "cap1"> This visualization has multiple groups, so the color scheme is a range of different colors in order to easily differentiate each group. This plot contains points and has horizontal and vertical positioning.
+    </div>
+    <br>
+    </div>
+    
+    <div id = "analysis1">
+    </div>
+    
+
+</div>    
+</div>
+    
+<div>
+<!-- <h3>Plot With 1 key and 1 value:</h3> -->
+<div id = "vis2_intro"> We will next take a look at the average prices per roast of coffee that each country processes. Note that these countries are not the origins of the beans, rather where they are processed to bring out the best flavors through different techniques.
+</div>
+<br>
+<div id="radio_bar" class="center_plot">
+    <input type="radio" id="bar_light" name="roast" value="Light" checked="checked">
+    <label for="Light">Light</label>
+    <input type="radio" id="bar_m" name="roast" value="Medium">
+    <label for="Medium">Medium</label>
+    <input type="radio" id="bar_ml" name="roast" value="Medium-Light" >
+    <label for="Medium-Light">Medium-Light</label>
+    <input type="radio" id="bar_md" name="roast" value="Medium-Dark" >
+    <label for="Medium-Dark">Medium-Dark</label>
+    <input type="radio" id="bar_d" name="roast" value="Dark" >
+    <label for="Dark">Dark</label>
+</div>
+
+<div id="plot2">
+
+    </div>
+    <!-- <h4>Plot:</h4> -->
+    <div id="bar_chart" class="center_plot">
+    </div>
+    <div id = "cap2"> This visualization has a blue color scheme. This is mostly arbitrary however, red was avoided as it gives the connotation of "loss". Therefore, blue was chosen. The marks in this graph are lines with vertical positioning and horizontal lengths.
+    </div>
+    <br>
+    <div id = "analysis2">
+    </div>
+</div>    
+
+<div>
+<!-- <h3>Plot With 2 keys and 1 value:</h3> -->
+<div id = "vis3_intro"> Now we will look at the top ten regions that produces the most beans per roast. That is the the ten origins of coffee beans. 
+</div>
+<div id="plot3">
+    </div>
+    <!-- <h4>Plot:</h4> -->
+    <div id="stacked_bar_chart" class="center_plot">
+    </div>
+    <div id = "cap3"> This visualization has the same color scheme as the first visualization for the same reason. There are different groups for each region, and we want to see each group clearly. The marks are lines with horizontal positioning and vertical lengths
+    </div>
+    <br>
+    <div id = "analysis3">
+    </div>
+</div>
+
+</div>  
+
+<div>
+<!-- <h3>Geometric Visualization:</h3> -->
+<div id = "vis4_intro"> Going back to countries, we will look at which countries have the most coffee processors. More specifically, which countrie contain the most coffee roasters, which process the coffee? In the dataset used for this project, only certain countries are included, so there is not enough data to see how many beans are processed by other countries.
+</div>
+<div id="plot4">
+    </div>
+    <!-- <h4>Plot:</h4> -->
+    <div id="geometric" class="center_plot">
+    </div>
+    <div id = "cap4"> The color scheme for this visualization has different hues of blue as we are working with sequential data. The marks are areas and the channels include color saturation.
+    </div>
+    <br>
+    <div id = "analysis4">
+    </div>
+</div>  
+
+<div>
+<!-- <h3>Adjacency Matrix:</h3> -->
+<div id = "vis5_intro"> Lastly, we will look at the relationships between the top ten origins with the highest number of beans produced. We want to see which two combinations of origins produce the most coffee, since a bean can have more than one origin.
+</div>
+<div id="plot5">
+    </div>
+    <!-- <h4>Plot:</h4> -->
+    <div id="adjacency" class="center_plot">
+    </div>
+    <br>
+    <div id = "cap5"> The color scheme for this visualization has different hues of purple as we are also working with sequential data. The marks are lines and the channels include color saturation.
+    </div>
+    <br>
+    <div id = "analysis5">
+    </div>
+</div>  
+
+</body>  
+</html>  
